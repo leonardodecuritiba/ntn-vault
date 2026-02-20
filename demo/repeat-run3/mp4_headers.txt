@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+x-amz-id-2: mforrH6IaNfeyySPBxp7OWETMUryQs2UmIsMHmlG+DTJTsdQstCEMxwqOmeHWSMVa5lEElalPiSIcHpg0EFVBz2WE3foDTih
+x-amz-request-id: B1NKW1DK7ATD5SJZ
+Date: Fri, 20 Feb 2026 01:42:23 GMT
+Last-Modified: Fri, 20 Feb 2026 01:41:56 GMT
+ETag: "e8a6b8b1cdee2793f63e7ad670424422-1"
+x-amz-server-side-encryption: aws:kms
+x-amz-server-side-encryption-aws-kms-key-id: arn:aws:kms:eu-west-2:910478838223:key/c722be33-4034-40ef-9790-b061041cdb14
+x-amz-server-side-encryption-context: eyJ0ZW5hbnRJZCI6ImFhYWFhYWFhLWFhYWEtYWFhYS1hYWFhLWFhYWFhYWFhYWFhYSIsImF3czpzMzphcm4iOiJhcm46YXdzOnMzOjo6bmVyZHR3aW4tdmF1bHQtZGV2LXN0b3JhZ2UifQ==
+x-amz-server-side-encryption-bucket-key-enabled: true
+x-amz-version-id: DXNZ2vFB7mMSOZDLtIxCuGk24EixQFYU
+Accept-Ranges: bytes
+Content-Type: video/mp4
+Content-Length: 83748821
+Server: AmazonS3
+

@@ -1,0 +1,56 @@
+Informe o JWT: 
+-rw-rw-r-- 1 sujeitoculto sujeitoculto 1,4M fev 19 22:36 ./demo/repeat-run2/ntn-week7-demo.mp4
+f75f5cd30a0013f22cb6ef04dc6a2b5a9aae513120982f2d9c8cbfc2ede99b80  ./demo/repeat-run2/ntn-week7-demo.mp4
+MP4_PATH=./demo/repeat-run2/ntn-week7-demo.mp4
+SIZE_BYTES=1397929
+LOCAL_SHA256=f75f5cd30a0013f22cb6ef04dc6a2b5a9aae513120982f2d9c8cbfc2ede99b80
+---- CreateAsset (headers) ----
+HTTP/1.1 201 Created
+---- CreateAsset (body) ----
+{"assetId":"0e67a3f0-2f19-4733-9e09-2bf5b3562232","status":"PENDING"}ASSET_ID=0e67a3f0-2f19-4733-9e09-2bf5b3562232
+---- InitUpload (headers) ----
+HTTP/1.1 201 Created
+---- InitUpload (body) ----
+{"assetId":"0e67a3f0-2f19-4733-9e09-2bf5b3562232","bucket":"nerdtwin-vault-dev-storage","expiresAt":"2026-02-20T02:36:26.876Z","key":"dev/tenant/aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa/assets/0e67a3f0-2f19-4733-9e09-2bf5b3562232/original","partCount":1,"partSizeBytes":8388608,"uploadId":"3xaqpvYC9UsOC6TwWqoH024lFq5IVGlSN85oYdLCIQdZxIsNwEej_l2fkedhqubLCYILMCi4kALg.x7EIt6m71VcjJo3BFIm6Rwvx79wYQKJDoa5a0uVuarvsx_5YO3m"}UPLOAD_ID=3xaqpvYC9UsOC6TwWqoH024lFq5IVGlSN85oYdLCIQdZxIsNwEej_l2fkedhqubLCYILMCi4kALg.x7EIt6m71VcjJo3BFIm6Rwvx79wYQKJDoa5a0uVuarvsx_5YO3m
+---- Presign (headers) ----
+HTTP/1.1 201 Created
+---- Presign (body redacted) ----
+{
+  "assetId": "0e67a3f0-2f19-4733-9e09-2bf5b3562232",
+  "bucket": "nerdtwin-vault-dev-storage",
+  "key": "dev/tenant/aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa/assets/0e67a3f0-2f19-4733-9e09-2bf5b3562232/original",
+  "partNumber": 1,
+  "uploadId": "3xaqpvYC9UsOC6TwWqoH024lFq5IVGlSN85oYdLCIQdZxIsNwEej_l2fkedhqubLCYILMCi4kALg.x7EIt6m71VcjJo3BFIm6Rwvx79wYQKJDoa5a0uVuarvsx_5YO3m",
+  "url": "<PRESIGNED_URL_REDACTED>"
+}
+---- PUT status ----
+HTTP/1.1 200 OK
+---- PUT ETag ----
+ETag: "767fcefd7d619d8274b7ebaf7d5d25f5"
+---- CompleteUpload (headers) ----
+HTTP/1.1 201 Created
+---- CompleteUpload (body) ----
+{"assetId":"0e67a3f0-2f19-4733-9e09-2bf5b3562232","bucket":"nerdtwin-vault-dev-storage","etag":"\"057f183d703db1ac946f221174e19b4e-1\"","key":"dev/tenant/aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa/assets/0e67a3f0-2f19-4733-9e09-2bf5b3562232/original","uploadId":"3xaqpvYC9UsOC6TwWqoH024lFq5IVGlSN85oYdLCIQdZxIsNwEej_l2fkedhqubLCYILMCi4kALg.x7EIt6m71VcjJo3BFIm6Rwvx79wYQKJDoa5a0uVuarvsx_5YO3m","versionId":"0H05H2NQmh1x34d6QeDkgKWbeYuyQLVX"}---- Verify (headers) ----
+HTTP/1.1 200 OK
+---- Verify (body) ----
+{"assetId":"0e67a3f0-2f19-4733-9e09-2bf5b3562232","computedSha256":"f75f5cd30a0013f22cb6ef04dc6a2b5a9aae513120982f2d9c8cbfc2ede99b80","verificationStatus":"VERIFIED"}---- StartView (headers) ----
+HTTP/1.1 200 OK
+---- StartView (body redacted) ----
+{
+  "assetId": "0e67a3f0-2f19-4733-9e09-2bf5b3562232",
+  "expiresAt": "2026-02-20T01:41:34.144Z",
+  "format": "MP4",
+  "overlay": {
+    "timestamp": "2026-02-20T01:36:34.144Z",
+    "userId": "11111111-1111-1111-1111-111111111111"
+  },
+  "playbackUrl": "<PRESIGNED_URL_REDACTED>",
+  "viewId": "bc6726bd-5933-4e0e-85bd-41a158773400"
+}
+DOWNLOADED_SHA256=f75f5cd30a0013f22cb6ef04dc6a2b5a9aae513120982f2d9c8cbfc2ede99b80
+LOCAL_SHA256=f75f5cd30a0013f22cb6ef04dc6a2b5a9aae513120982f2d9c8cbfc2ede99b80
+---- Selected download headers ----
+HTTP/1.1 200 OK
+Content-Type: video/mp4
+Accept-Ranges: bytes
+Content-Length: 1397929

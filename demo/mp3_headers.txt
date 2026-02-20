@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+x-amz-id-2: jovWHMO6PPvW4EQ0/OdGoMaricdMalNbA+GrwYKXtxraqDWPnj4VrQrvbXpyq7JRVBcjL2+XPRoBi7Stkz3SS11yrZed9N7w
+x-amz-request-id: JEF2WK7YQ270WDR3
+Date: Fri, 20 Feb 2026 01:25:22 GMT
+Last-Modified: Fri, 20 Feb 2026 01:25:18 GMT
+ETag: "00650ba4f9e42988df1b913039bfd798-1"
+x-amz-server-side-encryption: aws:kms
+x-amz-server-side-encryption-aws-kms-key-id: arn:aws:kms:eu-west-2:910478838223:key/c722be33-4034-40ef-9790-b061041cdb14
+x-amz-server-side-encryption-context: eyJ0ZW5hbnRJZCI6ImFhYWFhYWFhLWFhYWEtYWFhYS1hYWFhLWFhYWFhYWFhYWFhYSIsImF3czpzMzphcm4iOiJhcm46YXdzOnMzOjo6bmVyZHR3aW4tdmF1bHQtZGV2LXN0b3JhZ2UifQ==
+x-amz-server-side-encryption-bucket-key-enabled: true
+x-amz-version-id: yv.dJpkGnOCdj_oFmD5nJFFKLzP1uj3O
+Accept-Ranges: bytes
+Content-Type: audio/mpeg
+Content-Length: 40815
+Server: AmazonS3
+

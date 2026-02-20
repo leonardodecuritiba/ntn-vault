@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+x-amz-id-2: uHN6QxPj8JiK9mpKYk99/o+GcA3rLko44HI7AFHjDT2TgKScuyPNDFTDm6IuDtPSBDgxg/wyB/p8RHvIARxPEz99hYrwCDmo
+x-amz-request-id: B6B7WJP4VPTRMCB9
+Date: Fri, 20 Feb 2026 01:19:27 GMT
+Last-Modified: Fri, 20 Feb 2026 01:19:24 GMT
+ETag: "8dc4dbcb7009f556a2af04c2ba1d0ce5-1"
+x-amz-server-side-encryption: aws:kms
+x-amz-server-side-encryption-aws-kms-key-id: arn:aws:kms:eu-west-2:910478838223:key/c722be33-4034-40ef-9790-b061041cdb14
+x-amz-server-side-encryption-context: eyJ0ZW5hbnRJZCI6ImFhYWFhYWFhLWFhYWEtYWFhYS1hYWFhLWFhYWFhYWFhYWFhYSIsImF3czpzMzphcm4iOiJhcm46YXdzOnMzOjo6bmVyZHR3aW4tdmF1bHQtZGV2LXN0b3JhZ2UifQ==
+x-amz-server-side-encryption-bucket-key-enabled: true
+x-amz-version-id: S4E7plxrGmMdeBEx.LPSruxCsRmDixwH
+Accept-Ranges: bytes
+Content-Type: image/png
+Content-Length: 4861
+Server: AmazonS3
+

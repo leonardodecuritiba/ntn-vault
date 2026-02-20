@@ -1,0 +1,40 @@
+{
+    "editor.formatOnSave": true,
+    "prettier.requireConfig": true,
+    "prettier.configPath": ".prettierrc",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "rust-analyzer.checkOnSave.command": "clippy",
+    "rust-analyzer.checkOnSave.extraArgs": ["--all-targets", "--all-features"],
+    "[rust]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "rust-analyzer.inlayHints.bindingModeHints.enable": true,
+    "rust-analyzer.inlayHints.chainingHints.enable": true,
+    "rust-analyzer.inlayHints.lifetimeElisionHints.enable": "always",
+    "editor.rulers": [100, 120],
+    "files.exclude": {
+        "**/.git": true,
+        "**/target": true,
+        "**/.DS_Store": true
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": {
+        "comments": "off",
+        "strings": "off",
+        "other": "off"
+        }
+    },
+    "files.associations": {
+        "*.md": "markdown"
+    },
+    "markdown.preview.breaks": true,
+    "markdown.preview.doubleClickToSwitchToEditor": true
+}

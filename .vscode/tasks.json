@@ -1,0 +1,45 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "rust: build debug",
+            "type": "shell",
+            "command": "cargo",
+            "args": ["build", "--bin=v1"],
+            "problemMatcher": ["$rustc"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "silent"
+            }
+        },
+        {
+            "label": "rust: prepare-env-debug",
+            "type": "shell",
+            "command": "bash",
+            "args": [
+                "-c",
+                "[ -f .env ] || echo 'Creating .env placeholder (configure with your secrets)'; echo 'RUST_LOG=debug' >> .env.debug 2>/dev/null || true"
+            ],
+            "presentation": {
+                "reveal": "silent"
+            }
+        },
+        {
+            "label": "rust: format",
+            "type": "shell",
+            "command": "cargo",
+            "args": ["fmt"],
+            "group": "other"
+        },
+        {
+            "label": "rust: run tests",
+            "type": "shell",
+            "command": "cargo",
+            "args": ["test"],
+            "group": "test"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Rust (cargo build)",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": ["build", "--bin=v1", "--package=ntn-vault-service"],
+                "filter": {
+                    "name": "v1",
+                    "kind": "bin"
+                }
+            },
+            "args": ["dev", "--v1"],
+            "cwd": "${workspaceFolder}",
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+            "sourceLanguages": ["rust"],
+            "env": {
+                "RUST_LOG": "debug,ntn_vault_service=trace"
+            }
+        },
+        {
+            "name": "Debug with Request (attach & test)",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": ["build", "--bin=v1", "--package=ntn-vault-service"],
+                "filter": {
+                    "name": "v1",
+                    "kind": "bin"
+                }
+            },
+            "args": ["dev", "--v1"],
+            "cwd": "${workspaceFolder}",
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+            "sourceLanguages": ["rust"],
+            "preLaunchTask": "rust: prepare-env-debug",
+            "env": {
+                "RUST_LOG": "debug,ntn_vault_service=trace"
+            }
+        }
+    ]
+}
