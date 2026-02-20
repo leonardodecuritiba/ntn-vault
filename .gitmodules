@@ -1,0 +1,6 @@
+[submodule "ntn-vault-service"]
+	path = ntn-vault-service
+	url = git@github.com:nerdtwin/ntn-vault-service.git
+[submodule "ntn-vault-docs"]
+	path = ntn-vault-docs
+	url = git@github.com:nerdtwin/ntn-vault-service.git
