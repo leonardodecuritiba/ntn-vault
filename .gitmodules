@@ -3,4 +3,4 @@
 	url = git@github.com:nerdtwin/ntn-vault-service.git
 [submodule "ntn-vault-docs"]
 	path = ntn-vault-docs
-	url = git@github.com:nerdtwin/ntn-vault-service.git
+	url = git@github.com:nerdtwin/ntn-vault-docs.git
