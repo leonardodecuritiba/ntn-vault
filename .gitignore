@@ -1,3 +1,4 @@
 ./demo
 *.zip
 *.tar.gz
+*.md
